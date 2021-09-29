@@ -1,0 +1,131 @@
+* {
+    margin  : 0;
+    padding : 0;
+
+}
+
+#container {
+    width   : 100%;
+    height  : 100vh;
+    border  : 1px solid black;
+    margin  : 0 auto;
+    background-color: black;
+    padding: 80px 20px;
+    box-sizing: border-box;
+
+
+    
+}
+
+h1, h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+#task-holder {
+
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+    box-sizing:border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#task-holder button {
+    min-width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(from center, red, yellow, orange);
+    font-size: 15px;
+}
+
+input {
+    background-color: beige;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#input-holder {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.taskList {
+
+    width: 400px;
+    height: auto;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 30px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    
+
+}
+
+.taskList-h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.remove-button {
+    width: auto;
+}
+
+.checklist-button {
+    width:20px;
+    height: 20px;
+}
+
+#completed-task-list {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#complete-holder button {
+    min-width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(from center, red, yellow, orange);
+    font-size: 15px;
+}
